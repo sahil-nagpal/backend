@@ -1,0 +1,26 @@
+{
+  "name": "food-api",
+  "version": "1.0.0",
+  "description": "backend for cart functionality",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sahil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-jwt": "^7.4.3",
+    "jwt-simple": "^0.5.6",
+    "meteor-random": "0.0.3",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.1",
+    "moongoose": "0.0.5",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
+  }
+}
