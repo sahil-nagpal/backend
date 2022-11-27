@@ -1,4 +1,4 @@
-const UserModel = require('../models/User.js')
+const UserModel = require('../models/user.js')
 
 
 const register =async (req,res,next)=>{
