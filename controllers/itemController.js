@@ -1,4 +1,4 @@
-const ItemModel = require('../models/Items');
+const ItemModel = require('../models/items.js');
 
 const getMeals = async(req,res,next)=>{
     try{
