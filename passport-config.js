@@ -1,6 +1,6 @@
 let JwtStrategy = require('passport-jwt').Strategy;
 let ExtractJwt  = require('passport-jwt').ExtractJwt;
-let UserModel = require('./models/User');
+let UserModel = require('./models/user.js');
 let jwtOpts = {}
 jwtOpts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
 jwtOpts.secretOrKey = 'secret';
