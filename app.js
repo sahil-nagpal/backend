@@ -1,5 +1,6 @@
 let express = require('express');
 let router = require('./routes');
+require('dotenv').config();
 let passport = require('passport');
 let {jwt} = require('./passport-config');
 const bodyParser = require("body-parser")
