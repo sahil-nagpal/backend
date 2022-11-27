@@ -8,7 +8,7 @@ let PORT = process.env.PORT || 8000;
 let cors = require("cors")
 const moongoose = require('mongoose');
 try{
-    moongoose.connect("mongodb+srv://sahil:O0nlcqVY8zwwOL4y@cluster0.bexhm0v.mongodb.net/userTable")
+    moongoose.connect(process.env.mongoUrl)
 }
 catch(err){
     console.log("error in connecting moongoose application")
